@@ -18,9 +18,7 @@ window.onload = function(){
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     
-    svg_legend = d3.select("#svgBody2_legend") 
-        .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
    
     //call
     addLegend();
